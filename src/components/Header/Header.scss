@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  background-color: var(--danger-color);
+  color: var(--light-color);
+}
+
+.header-contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding-inline: 24px;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 32px;
+  color: var(--light-color);
+  transition: all .3s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.header-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.header-filter {
+  width: 200px;
+}

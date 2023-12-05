@@ -1,0 +1,54 @@
+.calendar-day {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 120px;
+  height: 90px;
+  background-color: #ccc;
+  border: 1px solid white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    border: 1px solid var(--primary-color);
+  }
+}
+
+.active-day {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.mon {
+  margin-left: 0;
+}
+
+.tue {
+  margin-left: 121px;
+}
+
+.wed {
+  margin-left: 242px;
+}
+
+.thu {
+  margin-left: 363px;
+}
+
+.fri {
+  margin-left: 484px;
+}
+
+.sat {
+  margin-left: 605px;
+}
+
+.sun {
+  margin-left: 726px;
+}
+
+.holiday-cell {
+  margin-top: 4px;
+  font-size: 8px;
+  font-weight: bold;
+}

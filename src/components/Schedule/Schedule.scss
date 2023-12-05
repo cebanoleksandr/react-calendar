@@ -1,0 +1,59 @@
+.schedule {
+  display: flex;
+}
+
+.holiday-list {
+  width: 50%;
+  padding: 24px;
+}
+
+.tasks {
+  width: 50%;
+  padding: 24px;
+}
+
+.search-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.holiday {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.holiday:hover {
+  background-color: rgb(111, 255, 255);
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.task:hover {
+  background-color: rgb(111, 255, 255);
+}
+
+.remove-task {
+  width: 16px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.remove-task:hover {
+  transform: scale(1.2);
+}
+
+.no-info-notifications {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
